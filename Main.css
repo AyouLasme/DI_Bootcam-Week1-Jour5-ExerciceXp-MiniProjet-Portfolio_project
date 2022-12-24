@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+
+nav{
+    background-color: orangered;
+}
+
+nav a{
+    color: white !important;
+}
+
+.header{
+    background-image: url("images/headerback.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#overlay {
+    /* position: fixed; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+button{
+    padding: 10px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    color: white;
+    width: 94.5%;
+  }
+
+a, h2, h1, h5{
+    color: orangered;
+    font-weight: bold;
+  }
+
+#text1{
+    width: 500px;
+}
+
+.thumbnail{
+    margin: 30px;
+    background-color: white;
+    border: 2px solid orangered;
+}
+
+.session2{
+    margin-top: 50px;
+    background-color: #ecf0f1;
+    border: 1px solid black;
+}
+
+.session2>h2{
+    text-align: center;
+}
+
+.panel-footer{
+    background-color: #ecf0f1;
+}
+
+.card .blog-img{
+    width: 100%;
+    height: 200px;
+}
+
+.nom{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 0 0 0 90%;
+}
+
+.session3>h2{
+    text-align: center;
+}
+
+.session3{
+    width: 98%;
+}
+
+.session3 img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.formulaire{
+    width: 50%;
+    overflow: hidden;
+}
+hr{
+    width: 98%;
+    margin-left: 10px;
+}
+
+.divTextfom{
+    padding-top: 35%; 
+   padding-left: 40px;
+}
+.session4{
+    width: 99.5%;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    
+}
+
+.boutton2{
+    background-color: orangered !important;
+}
+
+.divTextfom h3{
+    color: orangered;
+    font-size: 40px;
+}
+
+.divTextfom i{
+    color: orangered;
+    font-size: 30px;
+}
+
+@media screen and (max-width:992px) {
+    .card .blog-img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .thumbnail img{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:968px) {
+    
+    .image img{
+        width: 100%;
+        height: 150px;
+    }
+
+
+    #text{
+        width: 90%;
+        font-size: 75%;
+        overflow: hidden;
+    }
+
+   
+
+   
+}
+
+
+
+
+
+
+
+  
